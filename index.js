@@ -12,7 +12,7 @@ const logger = createLogger({
     new transports.Console()
   ]
 })
-//Error.stackTraceLimit = Infinity
+Error.stackTraceLimit = Infinity
 // to allow the logger to catch up
 setImmediate(() => {
 
